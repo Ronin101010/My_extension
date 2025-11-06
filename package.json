@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "helloextension.helloWorld",
-        "title": "Hello World"
+        "command": "helloextension.removecommentlines",
+        "title": "Remove comment lines"
       }
     ]
   },
