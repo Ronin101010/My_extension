@@ -12,16 +12,6 @@ After
 
 Users appreciate release notes as you update your extension.
 
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
+* d7573cb (HEAD -> CLRemover, origin/CLRemover) documentation
+* e5862b5 comment line remover
+* cdc30c8 (origin/master, master, delete) new extension
