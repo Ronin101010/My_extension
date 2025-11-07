@@ -17,7 +17,14 @@
         "command": "helloextension.removecommentlines",
         "title": "Remove comment lines"
       }
+    ],
+    "keybindings":[
+      {
+        "command": "helloextension.removecommentlines",
+        "key": "ctrl+f6"
+      }
     ]
+
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",

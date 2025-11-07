@@ -25,9 +25,9 @@ export function activate(context: vscode.ExtensionContext) {
 			// Get the word within the selection
 			const word = document.getText(selection);
 			// remove not first comment lines
-			const prefixed = word.replace((RegExp)("((\n)( *)(	*)(//.+))+\n", "g"), "\n");
+			const prefixed = word.replace((RegExp)("((\n)( *)(\t*)(//.+))+\n", "g"), "\n");
 			// remove first comment lines
-			const fixed = prefixed.replace((RegExp)("((^)( *)(	*)(//.+))+\n", "g"), "");
+			const fixed = prefixed.replace((RegExp)("((^)( *)(\t*)(//.+))+\n", "g"), "");
 			//return fixed text
 			editor.edit(editBuilder => {
 				editBuilder.replace(selection, fixed);
