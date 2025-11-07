@@ -2,7 +2,7 @@
 
 ## Features
 ### Commands
-- Command Remove comment lines
+- Command Remove comment lines (ctrl+f6 by default)
 
 Before 
 ![Remove comment lines command before](images/image.png)
@@ -17,9 +17,8 @@ This command simply applies the regular expressions mentioned below to the selec
 ((RegExp)("((^)( \*)(\t*)(//.+))+\n", "g"), "");
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
-* 4211d8b (HEAD -> CLRemover, origin/CLRemover) docs2
+* 48a5ebe (HEAD -> CLRemover, origin/CLRemover) more docs
+* 4211d8b docs2
 * 70b7bfc Release Notes update
 * d7573cb documentation
 * e5862b5 comment line remover
