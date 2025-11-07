@@ -19,6 +19,8 @@ This command simply applies the regular expressions mentioned below to the selec
 
 Users appreciate release notes as you update your extension.
 
-* d7573cb (HEAD -> CLRemover, origin/CLRemover) documentation
+* 4211d8b (HEAD -> CLRemover, origin/CLRemover) docs2
+* 70b7bfc Release Notes update
+* d7573cb documentation
 * e5862b5 comment line remover
 * cdc30c8 (origin/master, master, delete) new extension
