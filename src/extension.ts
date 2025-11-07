@@ -36,7 +36,7 @@ export function activate(context: vscode.ExtensionContext) {
 		// Display a message box to the user
 		vscode.window.showInformationMessage('Comment lines removed!');
 	});
-
+	//adds this commands to an array with functions that will be disposed when extension is deactivated
 	context.subscriptions.push(disposable);
 }
 
